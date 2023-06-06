@@ -1,41 +1,25 @@
-﻿using System.Windows.Forms;
-
-namespace M04_Challenge_Project
+namespace M02_Implement_Serialization
 {
-    public partial class CharacterForm : Form
+    public partial class Form1 : Form
     {
         private readonly ImageList imageList = new();
         private readonly Model model = new();
 
-        public CharacterForm()
+        public Form1()
         {
             InitializeComponent();
-
             imageList.ImageSize = new Size(300, 300);
             listView1.LargeImageList = imageList;
             imageList.ColorDepth = ColorDepth.Depth16Bit;
-
             PopulateCharacters();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            PopulateData();
-        }
-
-        private void PopulateCharacters()
-        {
-            foreach (Character character in model.GetCharacters())
-            {
-                if (character != null && character.ProfileIcon != null)
-                {
-                    imageList.Images.Add(character.ProfileIcon);
-                    listView1.Items.Add(new ListViewItem(character.Name, imageList.Images.Count - 1) { Tag = character });
-                }
-            }
-        }
-
-        private void PopulateData()
         {
             if (listView1.SelectedItems.Count == 1)
             {
@@ -89,6 +73,18 @@ namespace M04_Challenge_Project
 
                 pictureBox1.Image = selectedCharacter.FullImage;
                 pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            }
+        }
+
+        private void PopulateCharacters()
+        {
+            foreach (Character character in model.GetCharacters())
+            {
+                if (character != null && character.ProfileIcon != null)
+                {
+                    imageList.Images.Add(character.ProfileIcon);
+                    listView1.Items.Add(new ListViewItem(character.Name, imageList.Images.Count - 1) { Tag = character });
+                }
             }
         }
     }

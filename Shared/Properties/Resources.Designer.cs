@@ -163,6 +163,16 @@ namespace Shared.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap rogue02icon {
+            get {
+                object obj = ResourceManager.GetObject("rogue02icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap summoner01 {
             get {
                 object obj = ResourceManager.GetObject("summoner01", resourceCulture);

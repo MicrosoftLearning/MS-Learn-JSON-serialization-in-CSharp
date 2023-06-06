@@ -1,54 +1,19 @@
-﻿using System.Text.Json.Serialization;
-using System.Text.Json;
-using static System.Windows.Forms.Design.AxImporter;
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 
-namespace M04_Challenge_Project
+namespace M02_Implement_Serialization
 {
-    public class Model
+    internal class Model
     {
-        //Save character data
-        //Load character data
-        //Load default characters
-
         private readonly List<Character> characters;
-        private readonly List<Character> party;
 
         public Model()
         {
             characters = new List<Character>();
-            party = new List<Character>();
             InitCharacters();
-            DeserializeCharacters();
-        }
-        
-        public List<Character> GetCharacters()
-        {
-            return characters;
+            SerializeCharacters();
         }
 
-        public List<Character> GetParty()
-        {
-            return party;
-        }
-
-        public void AddCharacterToParty(string jsonString)
-        {
-            JsonSerializerOptions options = new()
-            {
-                Converters = { new JsonStringEnumConverter() },
-                PropertyNameCaseInsensitive = true
-            };
-            Character? data = JsonSerializer.Deserialize<Character>(jsonString, options);
-            if (data != null)
-            {
-                party.Add(data);
-            }
-        }
-
-        private void InitCharacters()
-        {
-
-        }
         private void DeserializeCharacters()
         {
             string jsonString = File.ReadAllText("Characters.json");
@@ -78,9 +43,31 @@ namespace M04_Challenge_Project
             }
         }
 
-        public string SerializeCharacter(Character character)
+        public List<Character> GetCharacters()
         {
-            return JsonSerializer.Serialize(character);
+            return characters;
+        }
+
+        private void InitCharacters()
+        {
+            Ability ability = new() { Accuracy = 1, Name = "Glimmer", Effect = "Something", Element = "Light" };
+            Character character = new()
+            {
+                Name = "Reina",
+                Level = 12,
+                Image = "rogue02",
+                Abilities = new[] { ability },
+                Resistance = new[] { "Ice", "Water", "Lightning" }
+            };
+            characters.Add(character);
+        }
+
+        private void SerializeCharacters()
+        {
+            string fileName = "SerializedCharacter.json";
+            JsonSerializerOptions options = new() { WriteIndented = true };
+            string jsonString = JsonSerializer.Serialize(characters, options);
+            File.WriteAllText(fileName, jsonString);
         }
     }
 }
