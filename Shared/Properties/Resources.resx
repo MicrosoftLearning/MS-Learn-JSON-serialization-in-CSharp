@@ -121,8 +121,32 @@
   <data name="cleric01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\cleric01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cleric01icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric01icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cleric02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\cleric02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleric02icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric02icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleric03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleric03icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric03icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleric04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleric04icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric04icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleric05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cleric05icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cleric05icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mage01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\mage01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,23 +157,116 @@
   <data name="mage02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\mage02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mage02icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\mage02icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mage03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\mage03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage03icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\mage03icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\mage04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage04icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\mage04icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\mage05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mage05icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\mage05icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin01icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin01icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin02icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin02icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin03icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin03icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin04icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin04icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paladin05icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\paladin05icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ranger01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\ranger01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ranger01icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger01icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ranger02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\ranger02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ranger02icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger02icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranger03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranger03icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger03icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranger04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranger04icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger04icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranger05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranger05icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ranger05icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rogue01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\rogue01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogue01icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rogue01icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rogue02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\rogue02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rogue02icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\rogue02icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogue03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rogue03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogue03icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rogue03icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogue04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rogue04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogue04icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rogue04icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogue05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rogue05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rogue05icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rogue05icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="summoner01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\summoner01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,10 +277,55 @@
   <data name="summoner02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\summoner02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="summoner02icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\summoner02icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summoner03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\summoner03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summoner03icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\summoner03icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summoner04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\summoner04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summoner04icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\summoner04icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summoner05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\summoner05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summoner05icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\summoner05icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="warrior01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\warrior01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="warrior01icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior01icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="warrior02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\warrior02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior02icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior02icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior03icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior03icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior04icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior04icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior05icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\warrior05icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

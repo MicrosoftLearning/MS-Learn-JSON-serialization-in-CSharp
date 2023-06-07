@@ -90,6 +90,7 @@
             loadButton.TabIndex = 1;
             loadButton.Text = "Load";
             loadButton.UseVisualStyleBackColor = true;
+            loadButton.Click += loadButton_Click;
             // 
             // splitContainer1
             // 
@@ -116,6 +117,7 @@
             listView1.Size = new Size(694, 875);
             listView1.TabIndex = 0;
             listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
             // splitContainer2
             // 

@@ -78,9 +78,12 @@ namespace M04_Challenge_Project
             }
         }
 
-        public string SerializeCharacter(Character character)
+        public static void SerializeCharacter(Character character)
         {
-            return JsonSerializer.Serialize(character);
+            string fileName = $"{character.Name}.json";
+            JsonSerializerOptions options = new() { WriteIndented = true };
+            string jsonString = JsonSerializer.Serialize(character, options);
+            File.WriteAllText(fileName, jsonString);
         }
     }
 }

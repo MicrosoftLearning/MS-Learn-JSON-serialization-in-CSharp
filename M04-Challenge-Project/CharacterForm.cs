@@ -6,6 +6,7 @@ namespace M04_Challenge_Project
     {
         private readonly ImageList imageList = new();
         private readonly Model model = new();
+        private Character? selectedCharacter = null;
 
         public CharacterForm()
         {
@@ -39,7 +40,7 @@ namespace M04_Challenge_Project
         {
             if (listView1.SelectedItems.Count == 1)
             {
-                Character selectedCharacter = (Character)listView1.SelectedItems[0].Tag;
+                selectedCharacter = (Character)listView1.SelectedItems[0].Tag;
 
                 label1.Text = $"Name: {selectedCharacter.Name}";
                 label2.Text = $"Class: {selectedCharacter.Class}";
@@ -90,6 +91,20 @@ namespace M04_Challenge_Project
                 pictureBox1.Image = selectedCharacter.FullImage;
                 pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (selectedCharacter != null)
+            {
+                Model.SerializeCharacter(selectedCharacter);
+                this.Close();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -149,10 +149,10 @@
     "Level": 23,
     "CharacterClass": "Mage",
     "Stats": {
-      "Hp": 0,
-      "Atk": 0,
-      "Def": 0,
-      "Spd": 0
+      "Hp": 63,
+      "Atk": 54,
+      "Def": 41,
+      "Spd": 56
     },
     "abilities": [
       {
@@ -190,10 +190,10 @@
     "level": 25,
     "Class": "Mage",
     "stats": {
-      "hp": 0,
-      "atk": 0,
-      "def": 0,
-      "spd": 0
+      "hp": 72,
+      "atk": 49,
+      "def": 42,
+      "spd": 40
     },
     "abilities": [
       {
@@ -231,10 +231,10 @@
     "Level": 34,
     "CharacterClass": "Mage",
     "Stats": {
-      "Hp": 0,
-      "Atk": 0,
-      "Def": 0,
-      "Spd": 0
+      "Hp": 74,
+      "Atk": 66,
+      "Def": 48,
+      "Spd": 61
     },
     "Abilities": [
       {
@@ -266,10 +266,10 @@
     "Level": 20,
     "CharacterClass": "Mage",
     "Stats": {
-      "Hp": 0,
-      "Atk": 0,
-      "Def": 0,
-      "Spd": 0
+      "Hp": 59,
+      "Atk": 58,
+      "Def": 60,
+      "Spd": 55
     },
     "Abilities": [
       {
@@ -307,10 +307,10 @@
     "Level": 28,
     "CharacterClass": "Mage",
     "Stats": {
-      "Hp": 0,
-      "Atk": 0,
-      "Def": 0,
-      "Spd": 0
+      "Hp": 72,
+      "Atk": 50,
+      "Def": 48,
+      "Spd": 41
     },
     "Abilities": [
       {
@@ -386,7 +386,7 @@
   },
   {
     "name": "Luna",
-    "level": 28,
+    "level": 25,
     "Class": "Summoner",
     "stats": {
       "hp": 52,
@@ -412,11 +412,51 @@
         "effect": "Teleports behind the target, launching a surprise attack",
         "element": "Shadow",
         "accuracy": 1.0
+      },
+      {
+        "Name": "Poison Dart",
+        "Effect": "Damages a target, may poison the target",
+        "Element": "Poison",
+        "Accuracy": 1.00
       }
     ],
     "affinity": "Void",
     "Weakness": [ "Spirit", "Fire", "Sound" ],
     "Resistance": [ "Air" ],
     "Image": "summoner02"
+  },
+  {
+    "name": "Cyrus",
+    "level": 32,
+    "Class": "Summoner",
+    "stats": {
+      "hp": 73,
+      "atk": 51,
+      "def": 46,
+      "spd": 41
+    },
+    "abilities": [
+      {
+        "name": "Fire Blast",
+        "effect": "Damages enemies nearby",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Flamethrower",
+        "effect": "Shoots a blast of fire at a target",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Fiery Incarnate",
+        "effect": "Summons champion with fire affinity to aid in battle",
+        "element": "Fire",
+        "accuracy": 1.0
+      }
+    ],
+    "affinity": "Fire",
+    "weakness": [ "Water" ],
+    "resistance": [ "Spirit", "Void", "Ice" ]
   }
 ]

@@ -34,6 +34,7 @@
             splitContainer1 = new SplitContainer();
             listView1 = new ListView();
             splitContainer2 = new SplitContainer();
+            pictureBox1 = new PictureBox();
             flowLayoutPanel2 = new FlowLayoutPanel();
             label1 = new Label();
             label2 = new Label();
@@ -46,7 +47,6 @@
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
-            pictureBox1 = new PictureBox();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
@@ -56,8 +56,8 @@
             splitContainer2.Panel1.SuspendLayout();
             splitContainer2.Panel2.SuspendLayout();
             splitContainer2.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -80,6 +80,7 @@
             button2.TabIndex = 1;
             button2.Text = "Save";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -89,6 +90,7 @@
             button1.TabIndex = 0;
             button1.Text = "Cancel";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // splitContainer1
             // 
@@ -136,6 +138,15 @@
             splitContainer2.Size = new Size(1056, 895);
             splitContainer2.SplitterDistance = 491;
             splitContainer2.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(491, 895);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // flowLayoutPanel2
             // 
@@ -245,15 +256,6 @@
             label11.Size = new Size(0, 48);
             label11.TabIndex = 10;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(491, 895);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
             // CharacterForm
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
@@ -272,9 +274,9 @@
             splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
             splitContainer2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel2.ResumeLayout(false);
             flowLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
