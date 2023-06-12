@@ -1,6 +1,6 @@
 ﻿namespace M04_Challenge_Project
 {
-    partial class CharacterForm
+    partial class ManagePartyForm
     {
         /// <summary>
         /// Required designer variable.
@@ -65,37 +65,36 @@
             flowLayoutPanel1.AutoSize = true;
             flowLayoutPanel1.Controls.Add(button2);
             flowLayoutPanel1.Controls.Add(button1);
-            flowLayoutPanel1.Dock = DockStyle.Bottom;
-            flowLayoutPanel1.FlowDirection = FlowDirection.RightToLeft;
-            flowLayoutPanel1.Location = new Point(0, 834);
+            flowLayoutPanel1.Dock = DockStyle.Top;
+            flowLayoutPanel1.Location = new Point(0, 0);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(2118, 75);
+            flowLayoutPanel1.Size = new Size(1889, 75);
             flowLayoutPanel1.TabIndex = 0;
             // 
             // button2
             // 
-            button2.Location = new Point(1890, 3);
+            button2.Location = new Point(3, 3);
             button2.Name = "button2";
             button2.Size = new Size(225, 69);
             button2.TabIndex = 1;
-            button2.Text = "Save";
+            button2.Text = "Generate";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(1659, 3);
+            button1.Location = new Point(234, 3);
             button1.Name = "button1";
             button1.Size = new Size(225, 69);
             button1.TabIndex = 0;
-            button1.Text = "Cancel";
+            button1.Text = "Load";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // splitContainer1
             // 
             splitContainer1.Dock = DockStyle.Fill;
-            splitContainer1.Location = new Point(0, 0);
+            splitContainer1.Location = new Point(0, 75);
             splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -106,8 +105,8 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.Controls.Add(splitContainer2);
-            splitContainer1.Size = new Size(2118, 834);
-            splitContainer1.SplitterDistance = 999;
+            splitContainer1.Size = new Size(1889, 834);
+            splitContainer1.SplitterDistance = 735;
             splitContainer1.TabIndex = 1;
             // 
             // listView1
@@ -115,7 +114,7 @@
             listView1.Dock = DockStyle.Fill;
             listView1.Location = new Point(0, 0);
             listView1.Name = "listView1";
-            listView1.Size = new Size(999, 834);
+            listView1.Size = new Size(735, 834);
             listView1.TabIndex = 0;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
@@ -135,8 +134,8 @@
             // splitContainer2.Panel2
             // 
             splitContainer2.Panel2.Controls.Add(flowLayoutPanel2);
-            splitContainer2.Size = new Size(1115, 834);
-            splitContainer2.SplitterDistance = 570;
+            splitContainer2.Size = new Size(1150, 834);
+            splitContainer2.SplitterDistance = 587;
             splitContainer2.TabIndex = 0;
             // 
             // pictureBox1
@@ -144,7 +143,7 @@
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(568, 832);
+            pictureBox1.Size = new Size(585, 832);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -166,7 +165,7 @@
             flowLayoutPanel2.FlowDirection = FlowDirection.TopDown;
             flowLayoutPanel2.Location = new Point(0, 0);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(539, 832);
+            flowLayoutPanel2.Size = new Size(557, 832);
             flowLayoutPanel2.TabIndex = 0;
             // 
             // label1
@@ -299,15 +298,15 @@
             tableLayoutPanel5.Size = new Size(2, 2);
             tableLayoutPanel5.TabIndex = 15;
             // 
-            // CharacterForm
+            // CharacterForm_Copy
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(2118, 909);
+            ClientSize = new Size(1889, 909);
             Controls.Add(splitContainer1);
             Controls.Add(flowLayoutPanel1);
-            Name = "CharacterForm";
-            Text = "CharacterForm";
+            Name = "CharacterForm_Copy";
+            Text = "Manage Party";
             flowLayoutPanel1.ResumeLayout(false);
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);

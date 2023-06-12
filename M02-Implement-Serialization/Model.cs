@@ -60,6 +60,17 @@ namespace M02_Implement_Serialization
                 Resistance = new[] { "Ice", "Water", "Lightning" }
             };
             characters.Add(character);
+
+            Ability ability2 = new() { Accuracy = 1, Name = "Glimmer", Effect = "Something", Element = "Light" };
+            Character character2 = new()
+            {
+                Name = "Dude",
+                Level = 30,
+                Image = "paladin05",
+                Abilities = new[] { ability },
+                Resistance = new[] { "Ice", "Water", "Lightning" }
+            };
+            characters.Add(character2);
         }
 
         private void SerializeCharacters()

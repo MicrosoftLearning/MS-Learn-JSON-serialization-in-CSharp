@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace M01_introduce_JSON
 {
     public partial class Form1 : Form
@@ -8,9 +10,12 @@ namespace M01_introduce_JSON
         public Form1()
         {
             InitializeComponent();
-            imageList.ImageSize = new Size(300, 300);
+            imageList.ImageSize = new Size(220, 220);
             listView1.LargeImageList = imageList;
+            listView1.View = View.Tile;
+            listView1.TileSize = new Size(230, 230);
             imageList.ColorDepth = ColorDepth.Depth16Bit;
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             PopulateCharacters();
         }
 
@@ -27,53 +32,74 @@ namespace M01_introduce_JSON
 
                 label1.Text = $"Name: {selectedCharacter.Name}";
                 label2.Text = $"Class: {selectedCharacter.Class}";
-                label3.Text = $"Lvl: {selectedCharacter.Level}";
-                label4.Text = $"HP: {selectedCharacter.Stats?.HP}";
-                label5.Text = $"Atk: {selectedCharacter.Stats?.Atk}";
-                label6.Text = $"Def: {selectedCharacter.Stats?.Def}";
-                label7.Text = $"Spd: {selectedCharacter.Stats?.Spd}";
+
+                tableLayoutPanel1.Controls.Clear();
+                tableLayoutPanel2.Controls.Clear();
+                tableLayoutPanel3.Controls.Clear();
+                tableLayoutPanel4.Controls.Clear();
+                tableLayoutPanel5.Controls.Clear();
+
+                tableLayoutPanel1.Controls.Add(new Label() { Text = "Lvl", AutoSize = true }, 0, 0);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = "HP", AutoSize = true }, 1, 0);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = "Atk", AutoSize = true }, 2, 0);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = "Def", AutoSize = true }, 3, 0);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = "Spd", AutoSize = true }, 4, 0);
+
+                tableLayoutPanel1.Controls.Add(new Label() { Text = $"{selectedCharacter.Level}", AutoSize = true }, 0, 1);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = $"{selectedCharacter.Stats?.HP}", AutoSize = true }, 1, 1);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = $"{selectedCharacter.Stats?.Atk}", AutoSize = true }, 2, 1);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = $"{selectedCharacter.Stats?.Def}", AutoSize = true }, 3, 1);
+                tableLayoutPanel1.Controls.Add(new Label() { Text = $"{selectedCharacter.Stats?.Spd}", AutoSize = true }, 4, 1);
 
                 if (selectedCharacter.Abilities != null && selectedCharacter.Abilities.Length > 0)
                 {
                     label8.Text = $"Abilities: ";
+                    int row = 0;
 
                     foreach (Ability ability in selectedCharacter.Abilities)
                     {
-                        label8.Text += $"{ability.Name}, ";
+                        Label label = new()
+                        {
+                            Text = $"{ability.Name}",
+                            AutoSize = true
+                        };
+                        tableLayoutPanel2.Controls.Add(label, 0, row++);
+                        ToolTip tip = new();
+                        tip.SetToolTip(label, ability.Effect);
                     }
-
-                    label8.Text = label8.Text[..^2];
                 }
 
                 if (selectedCharacter.Resistance != null && selectedCharacter.Resistance.Length > 0)
                 {
+                    tableLayoutPanel4.ColumnCount = selectedCharacter.Resistance.Length;
                     label9.Text = "Resistances: ";
+                    int col = 0;
 
-                    foreach (string resitance in selectedCharacter.Resistance)
+                    foreach (string resistance in selectedCharacter.Resistance)
                     {
-                        label9.Text += $"{resitance}, ";
+                        tableLayoutPanel4.Controls.Add(new Label() { Text = resistance, AutoSize = true }, col++, 0);
                     }
-
-                    label9.Text = label9.Text[..^2];
                 }
 
                 if (selectedCharacter.Weakness != null && selectedCharacter.Weakness.Length > 0)
                 {
+                    tableLayoutPanel5.ColumnCount = selectedCharacter.Weakness.Length;
                     label10.Text = "Weaknesses: ";
+                    int col = 0;
+
                     foreach (string weakness in selectedCharacter.Weakness)
                     {
-                        label10.Text += $"{weakness}, ";
+                        tableLayoutPanel5.Controls.Add(new Label() { Text = weakness, AutoSize = true }, col++, 0);
                     }
-                    label10.Text = label10.Text[..^2];
                 }
 
+                label11.Text = $"Affinity";
                 if (selectedCharacter.Affinity != null)
                 {
-                    label11.Text = $"Affinity: {selectedCharacter.Affinity}";
+                    tableLayoutPanel3.Controls.Add(new Label() { Text = selectedCharacter.Affinity, AutoSize = true });
                 }
 
                 pictureBox1.Image = selectedCharacter.FullImage;
-                pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             }
         }
 

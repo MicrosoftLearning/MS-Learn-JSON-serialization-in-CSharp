@@ -1,1 +1,720 @@
-﻿
+﻿[
+  {
+    "Name": "Morgana",
+    "Level": 22,
+    "Class": "Warrior",
+    "Stats": {
+      "Hp": 85,
+      "Atk": 57,
+      "Def": 39,
+      "Spd": 41
+    },
+    "Abilities": [
+      {
+        "Name": "Sonic Strike",
+        "Effect": "Damages enemies nearby",
+        "Element": "Sound",
+        "Accuracy": 0.96
+      },
+      {
+        "Name": "Terrifying Shout",
+        "Effect": "Inflicts terror on nearby enemies",
+        "Element": "Sound",
+        "Accuracy": 1.00
+      }
+    ],
+    "Affinity": "Sound",
+    "Weakness": [ "Earth", "Water" ],
+    "Resistance": [ "Void", "Air", "Ice" ],
+    "Image": "warrior01"
+  },
+  {
+    "name": "Ragnar",
+    "level": 25,
+    "Class": "Warrior",
+    "stats": {
+      "hp": 89,
+      "atk": 62,
+      "def": 65,
+      "spd": 51
+    },
+    "abilities": [
+      {
+        "name": "Fire Blast",
+        "effect": "Damages enemies nearby",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Flamethrower",
+        "effect": "Shoots a blast of fire at a target",
+        "element": "Fire",
+        "accuracy": 0.96
+      }
+    ],
+    "affinity": "Fire",
+    "weakness": [ "Water" ],
+    "resistance": [ "Spirit", "Void", "Ice" ],
+    "image": "warrior02"
+  },
+  {
+    "Name": "Nightshade",
+    "Level": 28,
+    "Class": "Warrior",
+    "Stats": {
+      "Hp": 85,
+      "Atk": 90,
+      "Def": 48,
+      "Spd": 66
+    },
+    "Abilities": [
+      {
+        "Name": "Wormhole",
+        "Effect": "Swaps the user's position with the target",
+        "Element": "Void",
+        "Accuracy": 0.96
+      },
+      {
+        "Name": "Shadow Strike",
+        "Effect": "Performs a sneak attack on an enemy",
+        "Element": "Void",
+        "Accuracy": 1.00
+      }
+    ],
+    "Affinity": "Void",
+    "Weakness": [ "Spirit", "Fire", "Sound" ],
+    "Resistance": [ "Air" ],
+    "Image": "warrior03"
+  },
+  {
+    "Name": "Freya",
+    "Level": 26,
+    "Class": "Warrior",
+    "Stats": {
+      "Hp": 83,
+      "Atk": 53,
+      "Def": 59,
+      "Spd": 54
+    },
+    "Abilities": [
+      {
+        "Name": "Pillar of Light",
+        "Effect": "Damages nearby enemies",
+        "Element": "Spirit",
+        "Accuracy": 0.86
+      },
+      {
+        "Name": "Cleansing Aura",
+        "Effect": "Heals status ailments for nearby allies",
+        "Element": "Spirit",
+        "Accuracy": 1.00
+      }
+    ],
+    "Affinity": "Spirit",
+    "Weakness": [ "Fire", "Poison" ],
+    "Resistance": [ "Void", "Water" ],
+    "Image": "warrior04"
+  },
+  {
+    "Name": "Darius",
+    "Level": 22,
+    "Class": "Warrior",
+    "Stats": {
+      "Hp": 87,
+      "Atk": 78,
+      "Def": 38,
+      "Spd": 50
+    },
+    "Abilities": [
+      {
+        "Name": "Rock Blast",
+        "Effect": "Blasts a target with a boulder",
+        "Element": "Earth",
+        "Accuracy": 0.86
+      },
+      {
+        "Name": "Quicksand",
+        "Effect": "Temporarily traps a target",
+        "Element": "Earth",
+        "Accuracy": 1.00
+      }
+    ],
+    "Affinity": "Earth",
+    "Weakness": [ "Void", "Water" ],
+    "Resistance": [ "Fire", "Poison", "Sound", "Air" ],
+    "Image": "warrior05"
+  },
+  {
+    "Name": "Selene",
+    "Level": 23,
+    "Class": "Mage",
+    "Stats": {
+      "Hp": 70,
+      "Atk": 78,
+      "Def": 39,
+      "Spd": 42
+    },
+    "abilities": [
+      {
+        "name": "Fire Blast",
+        "effect": "Damages enemies nearby",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Flamethrower",
+        "effect": "Shoots a blast of fire at a target",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "Name": "Inferno Burst",
+        "Effect": "Damages the target with a torrent of flames",
+        "Element": "Fire",
+        "Accuracy": 0.85
+      },
+      {
+        "Name": "Earthquake",
+        "Effect": "Damages nearby enemies in a violent earthquake",
+        "Element": "Earth",
+        "Accuracy": 0.8
+      }
+    ],
+    "affinity": "Fire",
+    "weakness": [ "Water" ],
+    "resistance": [ "Spirit", "Void", "Ice" ],
+    "Image": "mage01"
+  },
+  {
+    "name": "Idris",
+    "level": 25,
+    "Class": "Mage",
+    "stats": {
+      "hp": 92,
+      "atk": 68,
+      "def": 52,
+      "spd": 37
+    },
+    "abilities": [
+      {
+        "name": "Icy Blast",
+        "effect": "Damages enemies nearby",
+        "element": "Ice",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Hail Strike",
+        "effect": "Damages enemies nearby, may freeze enemies",
+        "element": "Ice",
+        "accuracy": 0.86
+      },
+      {
+        "Name": "Frost Nova",
+        "Effect": "Damages nearby enemies in a wave of frost, may freeze enemies",
+        "Element": "Ice",
+        "Accuracy": 0.9
+      },
+      {
+        "Name": "Tidal Wave",
+        "Effect": "Summons a massive wave to crash upon enemies",
+        "Element": "Water",
+        "Accuracy": 0.88
+      }
+    ],
+    "affinity": "Ice",
+    "weakness": [ "Fire", "Sound" ],
+    "resistance": [ "Air" ],
+    "image": "mage02"
+  },
+  {
+    "Name": "Thaddeus",
+    "Level": 34,
+    "Class": "Mage",
+    "Stats": {
+      "Hp": 108,
+      "Atk": 94,
+      "Def": 63,
+      "Spd": 84
+    },
+    "Abilities": [
+      {
+        "Name": "Thunderbolt",
+        "Effect": "Zaps a target",
+        "Element": "Lightning",
+        "Accuracy": 0.96
+      },
+      {
+        "Name": "Lightning Strike",
+        "Effect": "Damages nearby enemies, may paralyze enemies",
+        "Element": "Lightning",
+        "Accuracy": 0.86
+      },
+      {
+        "Name": "Gale Slash",
+        "Effect": "Damages a target with a cutting wind",
+        "Element": "Air",
+        "Accuracy": 0.96
+      }
+    ],
+    "Affinity": "Lightning",
+    "Weakness": [ "Earth" ],
+    "Resistance": [ "Air" ],
+    "Image": "mage03"
+  },
+  {
+    "Name": "Cedric",
+    "Level": 20,
+    "Class": "Mage",
+    "Stats": {
+      "Hp": 60,
+      "Atk": 67,
+      "Def": 53,
+      "Spd": 47
+    },
+    "Abilities": [
+      {
+        "Name": "Sludge Bomb",
+        "Effect": "Damages nearby enemies, may poison enemies",
+        "Element": "Poison",
+        "Accuracy": 0.86
+      },
+      {
+        "Name": "Poison Dart",
+        "Effect": "Damages a target, may poison the target",
+        "Element": "Poison",
+        "Accuracy": 1.00
+      },
+      {
+        "Name": "Shadow Bolt",
+        "Effect": "Fires a bolt of dark energy that saps the target's strength",
+        "Element": "Void",
+        "Accuracy": 0.86
+      },
+      {
+        "Name": "Poison Mist",
+        "Effect": "Poisons nearby enemies",
+        "Element": "Poison",
+        "Accuracy": 0.76
+      }
+    ],
+    "Affinity": "Poison",
+    "Weakness": [ "Earth" ],
+    "Resistance": [ "Void", "Spirit" ],
+    "Image": "mage04"
+  },
+  {
+    "Name": "Lucius",
+    "Level": 28,
+    "Class": "Mage",
+    "Stats": {
+      "Hp": 87,
+      "Atk": 78,
+      "Def": 53,
+      "Spd": 82
+    },
+    "Abilities": [
+      {
+        "Name": "Water Cannon",
+        "Effect": "Blasts a target with water",
+        "Element": "Water",
+        "Accuracy": 0.86
+      },
+      {
+        "Name": "Whirlpool",
+        "Effect": "Captures and damages a target",
+        "Element": "Water",
+        "Accuracy": 0.9
+      },
+      {
+        "Name": "Aqua Surge",
+        "Effect": "Damages nearby enemies with a powerful surge of water",
+        "Element": "Water",
+        "Accuracy": 0.88
+      },
+      {
+        "Name": "Divine Beam",
+        "Effect": "Damages an enemy with a beam of divine energy",
+        "Element": "Light",
+        "Accuracy": 0.9
+      }
+    ],
+    "Affinity": "Water",
+    "Weakness": [ "Lightning" ],
+    "Resistance": [ "Fire", "Earth", "Spirit" ],
+    "Image": "mage05"
+  },
+  {
+    "name": "Galen",
+    "level": 28,
+    "Class": "Ranger",
+    "stats": {
+      "hp": 93,
+      "atk": 65,
+      "def": 55,
+      "spd": 70
+    },
+    "abilities": [
+      {
+        "name": "Tripple Strike",
+        "effect": "Long range attack that strikes 3 times",
+        "element": "Air",
+        "accuracy": 0.9
+      },
+      {
+        "name": "Air Slash",
+        "effect": "Long range air attack",
+        "element": "Air",
+        "accuracy": 1.0
+      },
+      {
+        "Name": "Air Shield",
+        "Effect": "Provides a defense buff for nearby allies",
+        "Element": "Air",
+        "Accuracy": 1.00
+      },
+      {
+        "Name": "Cleansing Aura",
+        "Effect": "Heals status ailments for nearby allies",
+        "Element": "Spirit",
+        "Accuracy": 1.00
+      }
+    ],
+    "Affinity": "Air",
+    "Weakness": [ "Earth", "Lightning", "Sound", "Void", "Ice" ],
+    "Resistance": [],
+    "Image": "ranger01"
+  },
+  {
+    "name": "Tristan",
+    "level": 26,
+    "Class": "Ranger",
+    "stats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 57,
+      "spd": 78
+    },
+    "abilities": [
+      {
+        "name": "Dark Arrows",
+        "effect": "Long range attack that strikes a target",
+        "element": "Void",
+        "accuracy": 1.0
+      },
+      {
+        "name": "Void Slice",
+        "effect": "Long range attack that damages a target",
+        "element": "Void",
+        "accuracy": 1.0
+      },
+      {
+        "Name": "Poison Arrow",
+        "Effect": "Long range attack that strikes a target, may poison the target",
+        "Element": "Poison",
+        "Accuracy": 1.00
+      }
+    ],
+    "affinity": "Void",
+    "Weakness": [ "Spirit", "Fire", "Sound" ],
+    "Resistance": [ "Air" ],
+    "Image": "ranger02"
+  },
+  {
+    "name": "Rowan",
+    "level": 29,
+    "Class": "Ranger",
+    "stats": {
+      "hp": 93,
+      "atk": 66,
+      "def": 55,
+      "spd": 87
+    },
+    "abilities": [
+      {
+        "name": "Flaming Arrow",
+        "effect": "Long range attack that damages a target",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Fire Shot",
+        "effect": "Shoots a blast of fire at a target",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Magma Armor",
+        "effect": "Cloaks the wearer in magma, damages enemies that attack",
+        "element": "Fire",
+        "accuracy": 1.0
+      }
+    ],
+    "affinity": "Fire",
+    "weakness": [ "Water" ],
+    "resistance": [ "Spirit", "Void", "Ice" ],
+    "Image": "ranger03"
+  },
+  {
+    "name": "Lyanna",
+    "level": 27,
+    "Class": "Ranger",
+    "stats": {
+      "hp": 72,
+      "atk": 51,
+      "def": 95,
+      "spd": 32
+    },
+    "abilities": [
+      {
+        "name": "Poison Arrow",
+        "effect": "Long range attack that damages a target, may poison the target",
+        "element": "Poison",
+        "accuracy": 0.96
+      },
+      {
+        "Name": "Poison Dart",
+        "Effect": "Damages a target, may poison the target",
+        "Element": "Poison",
+        "Accuracy": 1.00
+      },
+      {
+        "name": "Shadowstep",
+        "effect": "Teleports behind the target, launching a surprise attack",
+        "element": "Shadow",
+        "accuracy": 1.0
+      }
+    ],
+    "Affinity": "Poison",
+    "Weakness": [ "Earth" ],
+    "Resistance": [ "Void", "Spirit" ],
+    "Image": "ranger04"
+  },
+  {
+    "name": "River",
+    "level": 25,
+    "Class": "Ranger",
+    "stats": {
+      "hp": 107,
+      "atk": 73,
+      "def": 60,
+      "spd": 45
+    },
+    "abilities": [
+      {
+        "Name": "Water Cannon",
+        "Effect": "Blasts a target with water",
+        "Element": "Water",
+        "Accuracy": 0.86
+      },
+      {
+        "Name": "Hydro Arrow",
+        "Effect": "Long range attack that damages a target",
+        "Element": "Water",
+        "Accuracy": 0.96
+      },
+      {
+        "name": "Freezing Arrows",
+        "effect": "Long range multi attack that damages targets, may freeze targets",
+        "element": "Ice",
+        "accuracy": 1.0
+      }
+    ],
+    "Affinity": "Water",
+    "Weakness": [ "Lightning" ],
+    "Resistance": [ "Fire", "Earth", "Spirit" ],
+    "Image": "ranger05"
+  },
+  {
+    "name": "Apollo",
+    "level": 30,
+    "Class": "Summoner",
+    "stats": {
+      "hp": 55,
+      "atk": 40,
+      "def": 35,
+      "spd": 60
+    },
+    "abilities": [
+      {
+        "name": "Arcane Blast",
+        "effect": "Damages a target with a blast of arcane energy",
+        "element": "Spirit",
+        "accuracy": 0.9
+      },
+      {
+        "name": "Holy Veil",
+        "effect": "Shrouds the caster, granting increased evasion",
+        "element": "Spirit",
+        "accuracy": 1.0
+      },
+      {
+        "name": "Holy Champion",
+        "effect": "Summons a great champion with Spirit affinity",
+        "element": "Spirit",
+        "accuracy": 1.0
+      },
+      {
+        "Name": "Cleansing Aura",
+        "Effect": "Heals status ailments for nearby allies",
+        "Element": "Spirit",
+        "Accuracy": 1.00
+      }
+    ],
+    "Affinity": "Spirit",
+    "Weakness": [ "Fire", "Poison" ],
+    "Resistance": [ "Void", "Water" ],
+    "Image": "summoner01"
+  },
+  {
+    "name": "Luna",
+    "level": 25,
+    "Class": "Summoner",
+    "stats": {
+      "hp": 52,
+      "atk": 38,
+      "def": 32,
+      "spd": 62
+    },
+    "abilities": [
+      {
+        "name": "Shadow Summons",
+        "effect": "Summons an Void companion to aid in battle",
+        "element": "Void",
+        "accuracy": 1.0
+      },
+      {
+        "Name": "Shadow Strike",
+        "Effect": "Performs a sneak attack on an enemy",
+        "Element": "Void",
+        "Accuracy": 1.00
+      },
+      {
+        "name": "Shadowstep",
+        "effect": "Teleports behind the target, launching a surprise attack",
+        "element": "Shadow",
+        "accuracy": 1.0
+      },
+      {
+        "Name": "Poison Dart",
+        "Effect": "Damages a target, may poison the target",
+        "Element": "Poison",
+        "Accuracy": 1.00
+      }
+    ],
+    "affinity": "Void",
+    "Weakness": [ "Spirit", "Fire", "Sound" ],
+    "Resistance": [ "Air" ],
+    "Image": "summoner02"
+  },
+  {
+    "name": "Cyrus",
+    "level": 32,
+    "Class": "Summoner",
+    "stats": {
+      "hp": 73,
+      "atk": 51,
+      "def": 46,
+      "spd": 41
+    },
+    "abilities": [
+      {
+        "name": "Fire Blast",
+        "effect": "Damages enemies nearby",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Flamethrower",
+        "effect": "Shoots a blast of fire at a target",
+        "element": "Fire",
+        "accuracy": 0.96
+      },
+      {
+        "name": "Fiery Incarnate",
+        "effect": "Summons champion with fire affinity to aid in battle",
+        "element": "Fire",
+        "accuracy": 1.0
+      }
+    ],
+    "affinity": "Fire",
+    "weakness": [ "Water" ],
+    "resistance": [ "Spirit", "Void", "Ice" ],
+    "Image": "summoner03"
+  },
+  {
+    "name": "Persephone",
+    "level": 34,
+    "Class": "Summoner",
+    "stats": {
+      "hp": 73,
+      "atk": 51,
+      "def": 46,
+      "spd": 41
+    },
+    "abilities": [
+      {
+        "name": "Rock Blast",
+        "effect": "Damages enemies nearby",
+        "element": "Earth",
+        "accuracy": 0.96
+      },
+      {
+        "Name": "Earthquake",
+        "Effect": "Damages nearby enemies in a violent earthquake",
+        "Element": "Earth",
+        "Accuracy": 0.8
+      },
+      {
+        "Name": "Healing Hymn",
+        "Effect": "Restores health of the user and allies",
+        "Element": "Spirit",
+        "Accuracy": 1.0
+      },
+      {
+        "name": "Golem Giant",
+        "effect": "Summons champion with earth affinity to aid in battle",
+        "element": "Fire",
+        "accuracy": 1.0
+      }
+    ],
+    "affinity": "Earth",
+    "Weakness": [ "Void", "Water" ],
+    "Resistance": [ "Fire", "Poison", "Sound", "Air" ],
+    "Image": "summoner04"
+  },
+  {
+    "name": "Elysia",
+    "level": 28,
+    "Class": "Summoner",
+    "stats": {
+      "hp": 73,
+      "atk": 51,
+      "def": 46,
+      "spd": 41
+    },
+    "abilities": [
+      {
+        "name": "Tornado Strike",
+        "effect": "Damages enemies nearby",
+        "element": "Air",
+        "accuracy": 0.96
+      },
+      {
+        "Name": "Gale Slash",
+        "Effect": "Damages a target with a cutting wind",
+        "Element": "Air",
+        "Accuracy": 0.96
+      },
+      {
+        "name": "Wind Incarnate",
+        "effect": "Summons a flying beast with air affinity to aid in battle",
+        "element": "Air",
+        "accuracy": 1.0
+      }
+    ],
+    "affinity": "Air",
+    "weakness": [ "Earth", "Lightning", "Sound", "Void", "Ice" ],
+    "resistance": [],
+    "Image": "summoner05"
+  }
+]
